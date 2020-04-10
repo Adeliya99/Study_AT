@@ -5,7 +5,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Sample1 {
     public static void main(String[] args) {
 
-        System.setProperty("webdriver.gecko.driver","C:\\chromedriver\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver","C:\\chromedriver\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
         String baseUrl = "http://demo.guru99.com/test/newtours/";
