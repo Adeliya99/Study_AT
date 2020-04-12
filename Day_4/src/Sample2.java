@@ -6,7 +6,6 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import java.util.concurrent.TimeUnit;
 
 
@@ -14,9 +13,9 @@ public class Sample2 extends Assert {
     WebDriver driver = new ChromeDriver();
     String baseUrl = "http://demo.guru99.com/test/login.html";
 
-
     @BeforeTest
-            public void launchBrowser() {
+        public void launchBrowser() {
+
         driver.get(baseUrl);
     }
 

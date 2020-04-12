@@ -14,7 +14,6 @@ public class Sample3 {
         String baseUrl = "http://demo.guru99.com/test/upload/";
         WebDriver driver = new ChromeDriver();
         WebDriverWait wait = new WebDriverWait(driver, 20);
-
         @BeforeTest
                 public void launchBrowser() {
             driver.get(baseUrl);
